@@ -5,7 +5,8 @@
  */
 
 $(function() {
-    alert("Look at the logs in the console for a message");
-    console.log( "ready!" );
+    $('.js-close-box').click(function(){
+        $('.js-close-me').hide();
+    });
 });
 

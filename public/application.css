@@ -1,5 +1,21 @@
+body {
+    font-size: 24px;
+}
+
 .a-big-box {
     background-color: red;
     height: 100px;
     width: 100px;
+    padding: 1em;
+}
+
+.a-place-i-can-add-things {
+    background-color: lightblue;
+    height: 500px;
+    width: 500px;
+    margin: 25px 0;
+}
+
+.added-class {
+    color: yellow;
 }
